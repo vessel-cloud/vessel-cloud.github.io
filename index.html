@@ -1,10 +1,11 @@
 <html lang="en-US">
 <head>
+	<meta charset="UTF-8">
 
 <title> Vessel </title>
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet"> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style type="text/css">
@@ -22,7 +23,7 @@ body {
 	width: 80vw;
 	margin: auto;
 	display: grid;
-	margin-top: 10vh;
+	margin-top: 3vh;
 }
 
 @media screen and (min-width: 30em) {
@@ -51,15 +52,31 @@ h3 {
 
 .contact-us {
 	margin-top: 2rem;
+	margin-bottom: 3rem;
+
 }
 
 .contact-us a {
 	color: #c9c9c9;
 }
 
+.contact-us .say-hi {
+	font-size: 1.5rem;
+}
+
 
 .use-case {
 	margin-top: 2rem;
+}
+
+.always-on {
+	color:  #ff890b;
+	font-size: 4rem;
+}
+
+.questions {
+	font-weight: 300;
+	font-style: italic;
 }
 	
 </style>
@@ -68,11 +85,11 @@ h3 {
 <body>
 
 <div class="intro">
-	<h2>VESSEL.</h2>
+	<h2>VESSEL<span class="always-on" title="Work in progress..">.</span></h2>
 	<div class="use-case">
 		<h3>For SAAS Builders</h3>
 
-		<section >
+		<section class="questions">
 			<p>Do you have a great product? Are you unable to fulfil Data safety requirements & convert Enterprise prospects? </p>
 
 			<p>Are you struggling to keep up with growing compliance and security standards? </p>
@@ -81,27 +98,27 @@ h3 {
 		</section>
 
 		<section class="answer">
-			We at Vessel, are building a state of the art Cloud platform, to let you solve these problems. Vessel will let you deploy & run your applications in customers' private cloud environment and enable you to seamlessly release updates & manage them as you do in your current production environment. 
+			We at Vessel, are building a platform as a service, to let you solve these problems. Vessel will let you deploy & run your applications in customers' private cloud environment and enable you to seamlessly release updates & manage them as you do in your current production environment. 
 		</section>
 	</div>
 
 	<div class="use-case">
 		<h3>For Businesses & Enterprises</h3>
 
-		<section>
-			<p>Are you using more than handful of SAAS applications in your organisation?</p>
+		<section class="questions">
+			<p>Do you want to move away from on-prem infrastructure to save costs?</p>
 
-			<p>If yes - Is your CISO unhappy about hosting your organisation's data across different SAAS vendors and the risks involved?</p> 
+			<p>Is your CISO unhappy about hosting your organisation's data across many SAAS vendors and the risks involved?</p> 
 
-			<p>Are you forced to use outdated  on-prem software, in place of popular SAAS apps, just to satisfy your security, data sovereignty & other obligations?</p> 
+			<p>Are you forced to use outdated on-prem software, in place of popular SAAS apps, just to satisfy your security, data sovereignty & other obligations?</p> 
 		</section>
 
 		<section class="answer">
-			We are on the same boat. Vessel will let you host your applications in your exclusive cloud, in any region and manage them the way you like. You will have complete control over your apps and their data. All while not spending insane amount of resources on-prem to be compliant with your IT requirements.
+			Vessel will let you run your applications in a secure & compliant exclusive cloud, in any region, and manage them in the way you like. You will have complete control over your apps and their data. All while not spending an insane amount of resources on-prem to be compliant with your IT requirements.
 		</section>	
 	</div>
 	<section class="contact-us">
-			Email us at <a href="mailto:hello@getvessel.cloud">hello@getvessel.cloud</a> if you'd like to participate in our beta program.
+			<span class="say-hi">&#128075;</span> Email us at <a href="mailto:hello@getvessel.cloud">hello@getvessel.cloud</a> if you'd like to be part of our beta program.
 		</section>
 </div>
 
